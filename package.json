@@ -1,0 +1,16 @@
+{
+  "name": "guada-plugin-baidu-image-search",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GuaDa third-party plugin: Baidu image search with optional image attachment",
+  "license": "MIT",
+  "scripts": {
+    "check": "node --check index.js && node --check lib/http.js && node --check lib/baidu-search.js",
+    "test": "node --test test/*.test.js",
+    "verify": "node scripts/verify.js",
+    "verify:online": "node scripts/verify.js --online"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

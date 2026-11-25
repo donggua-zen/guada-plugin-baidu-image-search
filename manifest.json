@@ -1,0 +1,12 @@
+{
+  "id": "baidu-image-search",
+  "name": "百度图片搜索",
+  "version": "0.1.0",
+  "description": "搜索百度图片并可选将少量图片注入当前会话",
+  "author": "donggua-zen",
+  "category": "user",
+  "main": "index.js",
+  "apiVersion": 4,
+  "icon": "assets/icon.svg",
+  "permissions": ["net"]
+}

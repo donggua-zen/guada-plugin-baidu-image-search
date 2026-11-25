@@ -1,0 +1,16 @@
+# 依赖（插件零 npm 依赖，宿主提供 zod/sharp）
+node_modules/
+
+# 运行时产物
+*.log
+image-cache/
+.guada/
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 本地验证残留
+out/
